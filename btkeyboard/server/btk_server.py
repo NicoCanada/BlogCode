@@ -22,7 +22,8 @@ import bluetooth
 from bluetooth import *
 
 
-import gtk
+#import gtk  
+from gi.repository import Gtk as gtk
 from dbus.mainloop.glib import DBusGMainLoop
 
 
