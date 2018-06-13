@@ -10,7 +10,7 @@ After follow the instruction in the blog, reboot the Pi
     ```
     sudo /etc/init.d/bluetooth stop
     
-    sudo /usr/sbin/bluetooth --nodetach --debug -p time
+    sudo /usr/sbin/bluetoothd --nodetach --debug -p time
     
     ```
    terminal 2:
